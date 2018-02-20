@@ -43,8 +43,6 @@ function callFriend(name) {
 //Code Here[]
 //
 
-const callJake = callFriend('Jake')
-callJake('435-555-9248')
 
 /******************************************************************************\
       #PROBLEM-03
@@ -56,13 +54,6 @@ callJake('435-555-9248')
 
 //Code Here
 
-function makeCounter() {
-	var inc = 0
-	return function count() {
-		inc++
-		return inc
-	}
-}
 
 //Uncomment this once you make your function
 var count = makeCounter()
@@ -88,15 +79,6 @@ count() // 4
 function counterFactory(value) {
 	// Code here
 
-	return {
-		inc: function() {
-			return (value += 1)
-		},
-
-		dec: function() {
-			return (value -= 1)
-		}
-	}
 }
 
 counter = counterFactory(10)
@@ -174,16 +156,8 @@ function secretNumber() {
 
 	return {
 		// Code here
-
-		addToSecret: function(num) {
-			return (secret += num)
-		},
-		takeAwayFromSecret: function(num) {
-			return (secret -= num)
-		}
 	}
 }
-
 /******************************************************************************\
       #PROBLEM-08
   \******************************************************************************/

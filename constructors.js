@@ -7,10 +7,6 @@
 // The values for the make and model will come from two parameters, make and model (in that order).
 
 // Code here
-function CarFactory(make, model) {
-	this.make = make;
-	this.model = model;
-}
 
 // ======================
 // Problem 2
@@ -26,7 +22,6 @@ function Employee(name, email, hireDate) {
 
 // Code here
 
-var bob = new Employee('Bob', 'bob@gmail.com', '01-02-98');
 
 // ======================
 // Problem 3
